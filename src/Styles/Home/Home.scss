@@ -406,7 +406,7 @@
                 }
             }
             .best_partner{
-                width: 80%;
+                width: 100%;
                 display: flex; flex-direction: column;
                 .first, .second{
                     font-size: .9vw;
@@ -414,6 +414,7 @@
                     text-transform: uppercase;
                     color: #fff;
                     width: 100%;
+                    // display: flex;justify-content: end;align-items: center;
                 }
                 .second{
                     text-transform: none;
@@ -435,3 +436,7 @@
                 }
 
           
+
+// @media screen and (max-width: 475px) {
+
+// }
